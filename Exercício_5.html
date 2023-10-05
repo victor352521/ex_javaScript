@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>CAVALO 2</h1>
+    <label for="Nome">Nome
+        <input type="text" id="nome" placeholder="seu nome">
+    </label>
+    <button id="meuBotao">Clique Aqui!</button>
+    <p id="minhaMensagem"></p>
+    <script>
+        document.getElementById("meuBotao").addEventListener("click",
+            function () {
+                var nome = document.getElementById("nome").value
+                if (nome) {
+                    document.getElementById("minhaMensagem").innerHTML = "Eai amante equino " + nome + "! Seja bem vindo ao meu site"
+                }
+                else { 
+                    document.getElementById("minhaMensagem").innerHTML = "Digite seu nome" }
+            })
+    </script>
+
+</body>
+
+</html>
