@@ -1,0 +1,33 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: darkcyan;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    margin: 30px auto;
+    width: 320px;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 100px;
+    background-color: aquamarine;
+    cursor: crosshair;
+    border: 2px solid black;
+}
+
+.cell:hover{
+    background-color: darkturquoise;
+}
+
+.message{
+    font-size: 40px;
+    margin: 30px;
+}
