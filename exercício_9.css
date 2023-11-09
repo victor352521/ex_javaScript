@@ -1,0 +1,23 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1{
+    color: #333;
+}
+
+button{
+    background-color: rgb(253, 53, 53);
+    color: white;
+    border-radius: 50%;
+    padding: 20px 40px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 20px;
+}
