@@ -1,15 +1,19 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
 
 header {
-    background-color: #333;
+    background-color: #06a885;
     color: #fff;
     text-align: center;
     padding: 1em 0;
+}
+
+#titulo {
+    font-size: 35px;
 }
 
 section {
@@ -36,9 +40,8 @@ p {
 footer {
     text-align: center;
     padding: 1em 0;
-    background-color: #333;
+    background-color: #06a885;
     color: #fff;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
